@@ -1,0 +1,10 @@
+<div class="todo-form">
+
+    <input class="todo-title" type="text" [(ngModel)]="todoTitle" placeholder="Enter your todo">
+
+    <input class="todo-description" type="text" [(ngModel)]="todoDescription" placeholder="Describe it...">
+
+    <div class="todo-submit">
+        <button (click)="addTodo()">ADD TODO</button>
+    </div>
+</div>

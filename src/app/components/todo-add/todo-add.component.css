@@ -1,0 +1,39 @@
+.todo-form {
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.todo-title {
+    border: 0px;
+    outline: 0px;
+    font-size: 30px;
+    font-family: 'Rubik';
+}
+
+.todo-description {
+    border: 0px;
+    outline: 0px;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: 'Rubik';
+}
+
+.todo-submit {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.todo-submit button {
+    height: 40px;
+    width: 450px;
+    margin-left: 4%;
+    justify-self: center;
+    border: none;
+    background-color:#36c95e;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Rubik';
+    border-radius: 10px;
+}

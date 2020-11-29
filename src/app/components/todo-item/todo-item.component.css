@@ -1,0 +1,22 @@
+.todo-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 50%;
+    padding: 10px 15px;
+    margin-left: 25%;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.todo-title{
+    font-size: 24px;
+    font-family: 'Rubik';
+    color: whitesmoke;
+}
+
+.todo-description{
+    color: #e3e3e3;
+    font-family: 'Rubik';
+}
